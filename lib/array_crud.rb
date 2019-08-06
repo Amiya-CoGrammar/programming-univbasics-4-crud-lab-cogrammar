@@ -7,12 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["JP", 23, "Manchester United"]
-
-  array.push("Won all pre seasons!")
-
-
+  array.push(element)
+  puts array
+  puts element
 end
+add_element_to_start_of_array(["JP", 23, "Manchester United"], "Won all pre seasons!")
 
 
 def add_element_to_start_of_array(array, element)
