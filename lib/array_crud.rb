@@ -19,7 +19,6 @@ def add_element_to_start_of_array(array, element)
   array = ["JP", 23, "Manchester United"]
 
   array.unshift("Won all pre seasons!")
-  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
