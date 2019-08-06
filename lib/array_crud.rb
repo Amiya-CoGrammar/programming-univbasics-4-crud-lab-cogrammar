@@ -28,7 +28,7 @@ end
 remove_element_from_start_of_array(["JP", 23, "Manchester United"])
 
 def retrieve_element_from_index(array, index_number)
-  
+
 end
 retrieve_element_from_index(["JP", 23, "Manchester United"], array[1] )
 def retrieve_first_element_from_array(array)
