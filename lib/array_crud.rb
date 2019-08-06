@@ -13,7 +13,7 @@ add_element_to_end_of_array(["JP", 23, "Manchester United"], "Won all pre season
 
 
 def add_element_to_start_of_array(array, element)
-  array = ["JP", 23, "Manchester United"]
+  array.unshift(element)
 
   array.unshift("Won all pre seasons!")
 end
