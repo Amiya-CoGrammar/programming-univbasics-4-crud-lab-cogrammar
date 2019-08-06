@@ -20,7 +20,7 @@ add_element_to_start_of_array(["JP", 23, "Manchester United"], "Won all pre seas
 def remove_element_from_end_of_array(array)
   array.pop()
 end
-remove_element_to_end_of_array(["JP", 23, "Manchester United"], "Won all pre seasons!")
+remove_element_to_end_of_array(["JP", 23, "Manchester United"])
 
 def remove_element_from_start_of_array(array)
 
