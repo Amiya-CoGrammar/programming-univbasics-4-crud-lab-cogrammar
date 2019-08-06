@@ -9,8 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   array = ["JP", 23, "Manchester United"]
 
-  element = "Won all pre-seasons!"
-  array << element
+  element = "Won all pre-seasons".pop
 end
 
 
