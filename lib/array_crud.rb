@@ -7,9 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  arrayX = ["JP", 23, "Manchester United"]
+  array = ["JP", 23, "Manchester United"]
 
-  arrayX << "Won all pre-seasons!"
+  element = "Won all pre-seasons!"
+  arrayX << element
 end
 
 
