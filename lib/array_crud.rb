@@ -38,8 +38,9 @@ end
 retrieve_first_element_from_array(["JP", 23, "Manchester United"])
 
 def retrieve_last_element_from_array(array)
-
+  array[-1]
 end
+retrieve_last_element_from_array(["JP", 23, "Manchester United"])
 
 def update_element_from_index(array, index_number, element)
 
