@@ -33,8 +33,9 @@ end
 retrieve_element_from_index(["JP", 23, "Manchester United"], 1 )
 
 def retrieve_first_element_from_array(array)
-
+  
 end
+retrieve_first_element_from_array(["JP", 23, "Manchester United"])
 
 def retrieve_last_element_from_array(array)
 
